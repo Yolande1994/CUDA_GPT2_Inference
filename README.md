@@ -39,7 +39,7 @@
 | transformers（SDPA） | — | 5.45 | — | — |
 
 - 对比 vLLM 的领先倍数：FP32 约 **1.12** 倍、BF16 约 **1.21** 倍、FP8 约 **1.5** 倍、INT8 约 **1.5** 倍。
-- 对比 transformers BF16：约 **7** 倍。
+- 对比 transformers BF16：约 **4.9** 倍。
 
 ### 只看优化版性能（ms/token）
 
