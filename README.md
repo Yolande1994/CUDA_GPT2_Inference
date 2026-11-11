@@ -276,7 +276,7 @@ make PRECISION=INT8 KV_W8=1   # 开启 8 位 KV 缓存
 
 assets/weights：权重路径  |  gpt2_tokenizer.bin：分词器路径  |  1000：生成 token 数
 
-常用开关：`--graph`（启用 CUDA Graph）、`--bench N`（跑 N 轮取中位数）、`-b/--batch`。  
+常用开关：`--graph`（启用 CUDA Graph）、`--bench N`（跑 N-1 轮取中位数）、`-b/--batch`。  
 其他开关：`--ppl N`（困惑度）、`--dump-steps` / `--dump-prefix`（导出中间张量做对拍）。
 
 基础版本的命令：
