@@ -2,7 +2,7 @@
 
 **纯 CUDA 从零实现的 GPT-2（124M）完整推理：**
 
-不调用任何高层深度学习框架，无任何封装，涵盖 Transformer 的推理底层算子、量化（INT8/FP8）、KV Cache、CUDA Graph、自回归生成主循环。  
+不调用任何高层深度学习框架，无任何封装，涵盖 Transformer 的推理底层算子、KV Cache、CUDA Graph、量化（INT8/FP8）、自回归生成主循环。  
 在同口径单请求场景下，平均 token 延迟跑赢 cuBLASLt、HuggingFace transformers 与 vLLM。  
 
 **本仓库既是一个能跑的推理引擎，应该也是一套 CUDA 优化学习模板：**
